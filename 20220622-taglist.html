@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taglist</title>
+    <style>
+        ol, li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit a
+
+
+        met.</p>
+    <pre>
+        Lorem ipsum dolor sit am    
+        <p>Lorem ipsum dolor sit amet.</p>
+            
+            
+        et.
+    </pre>
+    <code>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </code>
+    <!-- preformatted text - 입력한 그대로 화면에 출력해주는 태그 요소이며, 여백 및 줄바꿈도 그대로 표시 -->
+    <textarea cols="30" rows="10">
+        하이
+    </textarea>
+    <dl>
+        <dt>구글</dt>
+        <dd>http://www.google.co.kr</dd>
+    </dl>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+    <ul type="square">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+    <ul type="circle">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+    <ol start="A" reversed type="I">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ol>
+    <!-- 
+        ul - 순서가 없는 리스트를 나타낼 때 사용하는 태그로써 ul 태그 단독으로 사용할 수 없다.
+        예) <ul>1234</ul> (x)
+            li태그 역시 단독으로 사용할 수 없다.
+            예) <li>1234</li> (x)
+            <ul>
+                <li>1234</li>
+            </ul> (o)
+            ul 태그 다음 사용할 자식 요소 태그는 li태그를 제외한 그 어떠한 태그도 작성해서는 안되며 필요한 
+            태그가 있다면 li태그를 작성한 뒤 사용한다.
+            <ul>
+                <a href= "1234".html>메뉴1</a></li>
+            </ul>
+            (o)
+            ul의 모양은 변경 가능하나 실제로는 초기화를 통해 사용하지 않는다.
+            disc(기본값) / circle / square 3가지로 구분할 수 있다.
+            ul - ulordered list / li - list item / ol - ordered list 
+            ol - 순서가 있는 태그로써 a / A / 1 / i / I 
+            5가지로 사용할 수 있으나, ul과 동일하게 초기화를 통해 잘 사용하지 않는다.
+            순서의 시작은 start로 설정이 가능하며, reversed로 역순 표현이 가능하다.
+    -->
+    <iframe src="20220621-anchor.html" frameborder="0" width="100%" height="100"></iframe>
+</body>
+
+</html>
